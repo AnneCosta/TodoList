@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Lista de Tarefas</title>
+</head>
+<body>
+    <header>
+        <h2>Lista de Tarefas</h2>
+    </header>
+    <section>
+        <p>Insira aqui sua tarefa</p>
+        <form action="/" method="POST">
+            <input type="text" name="conteudo" id="tarefa" placeholder="Ex.: Estudar">
+            <button type="submit" id="btnAdd">Adicionar</button>
+        </form>
+        <ul>
+            <% for(let i=0; i < task.length; i++){ %>
+            <li><%= task[i].id %>. <%= task[i].tarefa %> <a href="/<%= task[i].id %>"><img src="https://img.icons8.com/cotton/2x/delete-sign--v2.png" width="15" style="float: right;"></a></li>
+            <% } %>
+        </ul>
+    </section>
+</body>
+</html>

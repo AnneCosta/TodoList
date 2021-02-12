@@ -1,0 +1,59 @@
+html{
+    font-family      : Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    padding          : 0px;
+    margin           : 0px;
+    background-color : rgb(119, 117, 223);
+}
+
+header{
+    display          : flex;
+    justify-content  : center;
+    align-items      : center;
+    background-color : rgb(58, 57, 129);
+    color            : rgb(255, 255, 255);
+    height           : 80px;
+}
+
+section{
+    display          : grid;
+    justify-content  : center;
+    color            : rgb(255, 255, 255);
+}
+
+#tarefa{
+    padding          : 7px 5px 6px 7px;
+    width            : 300px;
+    border-radius    : 10px 0px 0px 10px;
+    border           : 1px double rgb(58, 57, 129);
+}
+
+#tarefa:focus{
+    outline          : none;
+}
+
+#btnAdd{
+    padding          : 7px 8px 6px 7px;
+    border-radius    : 0px 10px 10px 0px;
+    border           : 1px double rgb(58, 57, 129);
+    color            : rgb(255, 255, 255);
+    background-color : rgb(58, 57, 129);
+}
+
+#btnAdd:hover{
+    background-color : rgb(81, 80, 180);
+    border-color     : rgb(81, 80, 180);
+}
+
+ul{
+    list-style       : none;
+    padding          : 0px;
+    margin-top       : 20px;
+}
+
+li{
+    padding          : 10px;
+    border-bottom: 1px solid #fff;
+}
