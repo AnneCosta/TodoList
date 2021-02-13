@@ -5,5 +5,7 @@ Para rodar o projeto localmente:
 2. Rode o servidor com `node index.js`
 3. Vá ao link `http://localhost:3000/` para visualizar o app
 
+PS: É necessária a criação da database com o mesmo nome especificado no `.env`
+
 ---
 <i> Obrigada, [Lucas](https://github.com/araujo21x), por me ajudar a concluir essa atividade </i> ❤️
